@@ -1034,7 +1034,7 @@ function wrapper(plugin_info) {
 
 
         $.each(triangles, function(idx, triangle) {
-            drawField(triangle.a, triangle.b, triangle.c, {
+            drawField(triangle.a, triangle.b, triangle.c {
                 stroke: false,
                 fill: true,
                 fillColor: '#FF0000',
