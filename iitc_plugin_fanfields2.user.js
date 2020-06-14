@@ -505,7 +505,7 @@ function wrapper(plugin_info) {
                 iconSize: [thisplugin.LABEL_WIDTH,thisplugin.LABEL_HEIGHT],
                 html: labelText
             }),
-            guid: guid,
+            guid: guid
         });
         thisplugin.labelLayers[guid] = label;
         label.addTo(thisplugin.numbersLayerGroup);
