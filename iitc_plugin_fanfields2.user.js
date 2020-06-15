@@ -505,7 +505,7 @@ function wrapper(plugin_info) {
                 iconSize: [thisplugin.LABEL_WIDTH,thisplugin.LABEL_HEIGHT],
                 html: labelText
             }),
-            guid: guid,
+            guid: guid
         });
         thisplugin.labelLayers[guid] = label;
         label.addTo(thisplugin.numbersLayerGroup);
@@ -1034,7 +1034,7 @@ function wrapper(plugin_info) {
 
 
         $.each(triangles, function(idx, triangle) {
-            drawField(triangle.a, triangle.b, triangle.c, {
+            drawField(triangle.a, triangle.b, triangle.c {
                 stroke: false,
                 fill: true,
                 fillColor: '#FF0000',
